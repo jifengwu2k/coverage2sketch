@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coverage2sketch"
+version = "0.1.0"
+description = "A tool to extract \"sketches\" of Python source files based on coverage data."
+readme = "README.md"
+requires-python = ">=3"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "astor",
+    "coverage",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/coverage2sketch"
+"Bug Tracker" = "https://github.com/jifengwu2k/coverage2sketch/issues"
